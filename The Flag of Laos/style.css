@@ -1,0 +1,39 @@
+.flag{
+  background-color:rgb(206, 17, 38); ;
+  width: 900px;
+  height: 600px;
+  border: 1px solid white;
+}
+.flag > p{
+  text-align: center;
+  color: white;
+  font-family: "Roboto", 'sans-serif' !important ;
+  font-size: 3rem;
+}
+ .flag div{
+  width:auto;
+  height: 50%;
+  background-color: rgb(0, 40, 104);
+  position: relative;
+}
+.flag > div > div{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 38%;
+  top: 16%;
+}
+.flag div > p{
+  font-family: "Roboto", 'sans-serif' !important ;
+  font-weight: 500;
+  font-size: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  padding:0;
+  margin:0;
+  text-align: center;
+}
